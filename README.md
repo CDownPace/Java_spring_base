@@ -12,6 +12,6 @@
   * 曾经案例中的问题
   * 工厂模式解耦
 * ioc概念和spring中的ioc 
- ==spring中基于xml的ioc环境搭建==
+==spring中基于xml的ioc环境搭建==
    * 依赖注入
 
