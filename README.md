@@ -59,3 +59,10 @@
 * 第二个：通过读取配置文件中配置的内容，反射创建对象
    *我的配置文件可以是xml也可以是properties
  
+ 
+ ### 单例对象和多例对象
+ ![avatar](http://note.youdao.com/yws/public/resource/17e41f0bc81c321444f3c7f93de83a99/xmlnote/2F6F5D10134945F4BA939CB49362C344/6520)
+
+
+### 使用spring创建bean
+打开源码，点击core,搜索xmlns，copy到bean.xml
