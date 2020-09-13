@@ -11,7 +11,7 @@ import com.itheima.service.IAccountService;
  */
 public class AccountServiceImpl implements IAccountService {
 
-   private IAccountDao accountDao = new AccountDaoImpl();
+//   private IAccountDao accountDao = new AccountDaoImpl();
 /**
  * 此部分存在耦合，所以建立ui文件
  */
@@ -20,7 +20,7 @@ public class AccountServiceImpl implements IAccountService {
     * 把这部分代码删掉，就会产生错误
     */
    
-   // private IAccountDao accountDao = (IAccountDao)BeanFactory.getBean("accountDao");
+    private IAccountDao accountDao = (IAccountDao)BeanFactory.getBean("accountDao");
 
 //    private int i = 1;
 
