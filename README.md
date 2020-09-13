@@ -78,3 +78,6 @@
 * BeanFactory:            多例对象使用
    * 它在构建核心容器时，创建对象采取的策略是采用延迟加载的方式。也就是说，什么时候根据id获取对象了，什么时候才真正的创建对象。
 
+
+### 负载均衡
+![avatar](http://note.youdao.com/yws/public/resource/17e41f0bc81c321444f3c7f93de83a99/xmlnote/6B72AC9A86A34311971EEB2078A9A3DD/6523)
