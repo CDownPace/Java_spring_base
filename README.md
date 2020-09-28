@@ -265,3 +265,11 @@
  ![avatar](https://www.z4a.net/image/TaTFeU)
 
 ### 第三天大体内容
+> 完善我们的account案例
+> 分析案例中的问题
+> 回顾之前讲的一个技术：动态代理
+> 动态代理的另一种实现方式
+> 解决案例中的问题
+> AOP的概念
+> spring中的AOP相关术语
+> spring中基于XML和注解的AOP配置
