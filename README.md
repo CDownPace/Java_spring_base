@@ -195,3 +195,27 @@
 
          spring的一些新注解使用
 * spring和Junit整合
+
+
+```java
+
+曾经XML的配置：
+ *  <bean id="accountService" class="com.itheima.service.impl.AccountServiceImpl"
+ *        scope=""  init-method="" destroy-method="">
+ *      <property name=""  value="" | ref=""></property>
+ *  </bean>
+ *
+ *用于创建对象的
+ *      他们的作用就和在XML配置文件中编写一个<bean>标签实现的功能是一样的
+ *      Component:
+ *      Component(value="accountService")
+ *          作用：用于把当前类对象存入spring容器中
+ *          属性：
+ *              value：用于指定bean的id。当我们不写时，它的默认值是当前类名，且首字母改小写。
+ *      Controller：一般用在表现层
+ *      Service：一般用在业务层
+ *      Repository：一般用在持久层
+ *      以上三个注解他们的作用和属性与Component是一模一样。
+ *      他们三个是spring框架为我们提供明确的三层使用的注解，使我们的三层对象更加清晰
+ *
+```
