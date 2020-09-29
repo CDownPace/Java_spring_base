@@ -275,3 +275,12 @@
 > spring中的AOP相关术语
 > spring中基于XML和注解的AOP配置
 此处过后请放置第三张图片
+
+
+### 第四天大体内容
+> spring中的JdbcTemplate
+> 作业:
+      * spring基于AOP的事务控制
+> spring中的事务控制
+      * 基于XML的
+      * 基于注解的
